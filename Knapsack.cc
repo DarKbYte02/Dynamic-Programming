@@ -3,7 +3,6 @@ using namespace std;
 #define endl '\n'
 #define fastio() cin.tie(nullptr); cout.tie(nullptr); ios_base::sync_with_stdio(false);
 #define lli long long int
-const int MAXN = 1e3+1;
 
 int solve(int i, int sack, vector<pair<int,int>>& a,vector<vector<int>>& mem){
 	if(i < 0) return 0;
